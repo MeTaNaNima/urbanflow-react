@@ -1,6 +1,6 @@
 // src/pages/Career.js
 import HeroSection from '../components/HeroSection';
-import Accordion from '../components/Accordion';
+// import Accordion from '../components/Accordion';
 
 const Career = () => {
 	return (
@@ -11,66 +11,150 @@ const Career = () => {
 				subtitle="realize your potential at Noven"
 			/>
 
-			<div className="py-24 bg-slate-100 px-3">
-				<div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto gap-14 mb-12">
+			<div className="py-12 bg-slate-100 px-3">
+				<div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto gap-14">
 					<div className="flex-1 flex flex-col gap-5 justify-center">
 						<h4 className="text-blue-900 text-xl font-bold">FIND YOUR FUTURE HERE </h4>
 						<p className="text-blue-900">
-							We are a group of engineers, designers, technologists, and city-building
-							experts. We deliver uncompromising performance through a comprehensive
-							range of services for the built environment. Our culture and commitment
-							enable us to achieve progressive solutions to the most complex
-							challenges. We are purpose-led and passion-fueled. We are different. Are
-							you?
+							We’re on a mission to empower entrepreneurs and professionals to reach
+							their full potential. Our team of experts works with a diverse range of
+							clients throughout British Columbia, providing cutting-edge solutions
+							and opportunities for self-development and career advancement.
 						</p>
 						<p>
-							We're always looking to expand our team by adding skilled Intermediate
-							or Senior Building Code Consultants who can review, develop, and
-							document approaches to building code compliance related to Fire
-							Protection and Life Safety Building Code requirements. This role will be
-							primarily in support of our work with architectural, developer, and
-							institutional clients.
+							We’re currently seeking driven and ambitious individuals with
+							entrepreneurship embodied in their souls to join our team as
+							Junior/Intermediate Transportation Engineers.
+						</p>
+						<p>
+							As an equal opportunity employer, we’re committed to fostering a dynamic
+							and inclusive culture where innovation and creativity thrive. Only
+							qualified candidates will be contacted for further review.
+						</p>
+						<p>
+							The Junior/Intermediate Traffic/Transportation Planning Engineer, based
+							out of our Vancouver office and reporting directly to the Lead, will
+							conduct transportation planning studies, traffic analysis, and traffic
+							impact studies.
 						</p>
 						<h2 className="font-semibold italic text-blue-900 text-xl">
-							Why you'll love working with us
+							Roles and responsibilities will include:
 						</h2>
-						<p>
-							<strong>ACCELERATED GROWTH:</strong> While siloed, compartmentalized
-							firms limit your development, our collaborative work style GUARANTEES
-							you access and exposure to a wide variety of projects. As our new
-							consultant, we will quickly get you up to speed, invest in your training
-							and participation in seminars, conferences and technical associations
-							and continuously support you in realizing your full potential. As we
-							promote from within, you won't have any career limits. The type of
-							professional growth and development we offer simply doesn't happen in
-							larger firms.
-						</p>
-						<p>
-							<strong>DIVERSITY OF INTERESTING PROJECTS:</strong> Commercial and
-							residential. Transportation and government. Healthcare and academic.
-							Sports, cultural, heritage and AHJ projects. We do it all, and you will
-							too.
-						</p>
-						<p>
-							<strong>EXCELLENT ATMOSPHERE:</strong> Our company culture is positive,
-							smart and highly collaborative. We are a tight-knit, likeminded team
-							that encourages open communication, collaboration and idea sharing. As
-							an employee-owned firm, we're insulated from traditional external
-							interests and pressures. It just adds up to a more inspired and
-							rewarding environment than you'll find anywhere else.
-						</p>
-						<p>
-							<strong>HEALTH &amp; WELLNESS: </strong>Extended health benefits.
-							Wellness programs. Team events, holiday parties and Whistler retreats.
-							At Noven, we proudly take care of our own.
-						</p>
+						<ul className="list-disc list-inside">
+							<li>
+								Assist senior staff in managing and maintaining the growing
+								transportation safety, engineering, and planning market across
+								Canada, with a focus on British Columbia.
+							</li>
+							<li>
+								Conduct Traffic Impact Assessments (TIAs), including collecting
+								transportation data, building traffic analysis models, and
+								performing traffic analysis.
+							</li>
+							<li>
+								Complete parking studies, including reviewing municipal policies,
+								calculating parking utilization and demand rates, performing site
+								visits, and formulating parking supply recommendations.
+							</li>
+							<li>rite technical memos and reports.</li>
+							<li>
+								Prepare Traffic Management Plans during construction, including
+								Traffic Control Plans.
+							</li>
+							<li>
+								Develop traffic signage and pavement marking plans as well as
+								traffic signal design, including signal timing/phasing plans.
+							</li>
+							<li>Assist with preparing proposals, budgets, and schedules.</li>
+							<li>Assist with data collection for some assignments.</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 
-			<div className="py-24 px-3">
+			<div className="py-12 px-3">
 				<div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto gap-14">
-					<Accordion title="Intermediate Building Code Consultant – Vancouver ">
+					<div className="flex-1">
+						<h2 className="font-semibold italic text-blue-900 text-xl mb-4">
+							Requirements:
+						</h2>
+						<ul className="list-disc list-inside">
+							<li>
+								Hold, at minimum, a Bachelor’s Degree in Civil Engineering with an
+								emphasis in transportation engineering (post Graduate degree is
+								preferred).
+							</li>
+							<li>
+								Have a minimum of 2 to 4 years of experience (or post graduate
+								degree) working in a transportation engineering environment,
+								preferably in the area of transportation safety, engineering and
+								planning and in a consulting environment in Canada or outside of
+								Canada.
+							</li>
+							<li>
+								Demonstrated knowledge of prevailing transportation guidelines,
+								standards, and regulations including, but not limited to, the Manual
+								of Uniform Traffic Control Devices, Geometric Design Guide for
+								Canadian Roads, HTA, and other TAC and Ministry of Transportation
+								publications.
+							</li>
+							<li>
+								Working knowledge of Synchro and/or similar traffic analysis
+								software is required
+							</li>
+							<li>
+								Ability in AutoCAD at a basic level is required; additional skill
+								would be beneficial
+							</li>
+							<li>
+								Working knowledge of EMME, AIMSUN, VISSIM, SIDRA would each be
+								beneficial
+							</li>
+							<li>
+								Working knowledge of TAC/ BC/ Alberta / municipal geometric design
+								standards is beneficial
+							</li>
+							<li>
+								Must possess a collaborative attitude in working with other members
+								of a transportation team
+							</li>
+							<li>
+								Must be able to work independently with direction and supervision
+								provided as needed based on the complexity of the assignment(s)
+							</li>
+							<li>
+								Must demonstrate an ability to work within established timelines,
+								and within project budgets
+							</li>
+							<li>
+								Secondary qualifications such as PMP, PTOE, RSP, PTP, etc. would be
+								an asset
+							</li>
+						</ul>
+					</div>
+					<div className="flex-1">
+						<h2 className="font-semibold italic text-blue-900 text-xl mb-4">
+							What we offer:
+						</h2>
+						<ul className="list-disc list-inside">
+							<li>Competitive salary that is line with our defined pay structure</li>
+							<li>Opportunity to earn annual bonus</li>
+							<li>Flexible hours</li>
+							<li>
+								Hybrid remote work along with a variety of virtual and in-person
+								events to help drive business and also connect with your colleagues
+							</li>
+							<li>Extended Health & Dental</li>
+							<li>
+								Employee and Family Assistance Program (for employee and dependents)
+							</li>
+							<li>Learning & Development</li>
+							<li>Coverage of relevant certifications</li>
+							<li>Wellness subsidy</li>
+						</ul>
+					</div>
+
+					{/* <Accordion title="Intermediate Building Code Consultant – Vancouver ">
 						<h4 className="text-lg font-bold mb-2">About the job</h4>
 						<p>
 							We are looking to expand our Vancouver team by adding a skilled
@@ -138,7 +222,7 @@ const Career = () => {
 							If this sounds like you, don't be left wondering about what could have
 							been. Apply now and explore this great career opportunity.
 						</p>
-					</Accordion>
+					</Accordion> */}
 				</div>
 			</div>
 		</div>

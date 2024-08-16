@@ -18,11 +18,13 @@ const Home = () => {
 				}}>
 				<div className="home-hero-text text-white flex flex-col justify-center items-center gap-20">
 					<h2 className="italic text-4xl max-w-[35ch] text-center">
-						a fresh professional approach to your regulatory code compliance needs
+						A creative professional approach to your traffic engineering, 1
 					</h2>
-					<h1 className="text-5xl font-medium text-center">
-						Bulding Code Consulting <br /> & <br /> Fire Protection Engineering
-					</h1>
+					{/* <h1 className="text-5xl font-medium text-center">
+						parking and safety concerns Traffic Engineering
+						<br /> & <br />
+						Fire Protection Engineering
+					</h1> */}
 					<a href="#GetInTouch" className="absolute bottom-2 right-[10vw]">
 						<svg class="w-[60px] h-[75px]">
 							<path
@@ -38,17 +40,23 @@ const Home = () => {
 			<div id="GetInTouch" className="py-24 px-3">
 				<div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto gap-14 mb-12">
 					<div className="flex-1 flex flex-col gap-5">
-						<h4 className="text-blue-900 text-xl font-bold">
-							Building Code and Fire Protection Engineering Services
+						<h4 className="text-blue-900 text-xl font-bold capitalize">
+							Parking and safety concerns Traffic Engineering & Transportation
+							Planning
 						</h4>
 						<p className="text-blue-900">
-							Noven Consulting Inc. was established to provide professional Fire
-							Protection Engineering, Building Code Consulting and Certified
-							Professional services to architects, building owners, law firms,
-							insurance underwriters, developers, industry and government agencies.
-							Included in this broad field of expertise is the firm's ability to
-							assess functional and safety aspects of buildings and design of their
-							life safety and fire protection systems.
+							Specialized Traffic Engineering & Transportation Planning in BC
+							Recognizing that no company can be an expert at everything, our firm is
+							built around our greatest passion, expertise, and experience: traffic in
+							British Columbia, Canada. Our team blends technical expertise with
+							strong project management and leadership skills. Led by registered
+							professional engineers (P.Eng.) with specialized Professional Traffic
+							Operations Engineer (PTOE) certifications, our 2 specialized traffic and
+							transportation engineering firm offers an exceptional level of traffic
+							expertise to clients. Our flexible team has extensive experience working
+							with the Ministry of Transportation and Infrastructure (MoTI) and
+							various municipalities in BC, ensuring dedicated service for all your
+							traffic needs.
 						</p>
 					</div>
 					<div className="flex-1 flex  items-center justify-center">
@@ -58,17 +66,18 @@ const Home = () => {
 				<div className="flex flex-col lg:flex-row-reverse max-w-screen-xl mx-auto gap-14 mt-3">
 					<div className="flex-1 flex flex-col gap-5">
 						<h4 className="text-blue-900 text-xl font-bold">
-							Performance-focused Services for All Sizes of Challenges
+							12 Years of Excellence in Traffic and Transportation Consulting Since
+							2012, we have been providing top-notch sustainable and functional
+							traffic, safety, and parking consulting services to a diverse range of
+							public
 						</h4>
 						<p className="text-blue-900">
-							Our experience and local knowledge, enables us to provide superior
-							performance-focused services to our clients in a wide variety of
-							sectors, including Commercial, Cultural, Healthcare, Hospitality,
-							Institutional, Residential, Retail, and Sports & Recreation. Together,
-							we are committed to protecting people, property and reputations, and
-							through our participation in national codes and standard associations
-							and committees, strive to advance our position as the leader in our
-							field.
+							and private sector clients across BC. Our experienced, dynamic, and
+							energetic traffic engineering firm has conducted traffic and
+							transportation studies for various developments, from residential
+							properties to major retail, community centers, industrial, and
+							commercial projects. We have assisted numerous clients to obtain
+							development approvals for new and redevelopment projects.
 						</p>
 					</div>
 					<div className="flex-1 flex items-center justify-center">
@@ -86,14 +95,12 @@ const Home = () => {
 					<div className="flex-1 flex flex-col gap-5 justify-center">
 						<h4 className="text-blue-900 text-xl font-bold">Certified & Experienced</h4>
 						<p className="text-blue-900">
-							Our engineers and technical staff work regularly with many Provincial
-							and National Codes, as well as related International Codes and
-							Standards. Internationally, Noven works regularly with a number of
-							universally accepted Codes, including NFPA 101 and 5000, Universal
-							Building Code and the International Building Code. Noven Consulting has
-							decades of experience in the fields of Fire Protection Engineering and
-							Building Code Consulting. In all cases, our senior technical staff
-							member will be assigned to your project.
+							Reliable Traffic Engineering Project Delivery On-Time and Within Budget
+							Our team of highly trained and qualified traffic engineering
+							professionals is dedicated to understanding and achieving our clients'
+							needs and goals with utmost efficiency. We pride ourselves on our
+							steadfast reputation for delivering projects on time and within budget,
+							every single time.
 						</p>
 					</div>
 					<div className="flex-1 flex  items-center justify-center">
@@ -108,11 +115,11 @@ const Home = () => {
 					<div className="flex-1 flex flex-col gap-5 justify-center">
 						<h4 className="text-blue-900 text-xl font-bold">Dedicated & Recognized</h4>
 						<p className="text-blue-900">
-							The firm, through its participation in recognized national associations
-							and committees, has earned a reputation as a leader in its field.
-							Members bf Noven Consulting participate in provincial Building Code and
-							Fire Code committees, assisting the development and implementation of
-							the future of the industry.
+							Fostering Long-Term Relationships with Clients and Partners We believe
+							in building strong relationships with our clients and strategic partners
+							from the beginning of the project, to ensure long-term success. This is
+							achieved through open communication, building trust, mutual respect, and
+							embracing diversity.
 						</p>
 					</div>
 					<div className="flex-1 flex  items-center justify-center">
@@ -130,6 +137,7 @@ const Home = () => {
 					<h3 className="text-3xl font-bold text-blue-900">Services</h3>
 				</div>
 				<div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+					<ServiceCard />
 					<ServiceCard
 						title="CERTIFIED PROFESSIONAL (CP) SERVICES"
 						description="Certain municipalities authorize a Registered Engineer or Architect to provide a detailed coordinated review of the life safety and fire protection requirements for a project."
