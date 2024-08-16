@@ -1,0 +1,57 @@
+[
+	{
+		"images": [
+			"/projects/images/DART'S HILL TRANSPORTATION MODELLING AND TRAFFIC ANLYSIS/Picture1.jpg"
+		],
+		"id": "uf_1",
+		"name": "DART'S HILL TRANSPORTATION MODELLING AND TRAFFIC ANLYSIS",
+		"link": "DART'S HILL TRANSPORTATION MODELLING AND TRAFFIC ANLYSIS",
+		"description": "The City of Surrey requested to conduct Transportation Modelling of the Dart’s Hill Neighbourhood Concept Plan (Formerly Grandview Heights Area). The Dart’s Hill area is bounded by 168 Street to the west, 20 Avenue to the north, 176 Street/Highway 15 to the east and 16 Avenue to the south. Regional access to Highway 15 is proposed at the existing intersections with 16 Avenue and 20 Avenue, and the current restricted “right in / out” access from 18 Avenue.",
+		"client": "City of Surrey",
+		"project_location": "Surrey, BC, Canada",
+		"additional_data": [
+			"Estimate and distribute the trips generated for the Dart’s Hill NCP area; ",
+			"Determine and analyze projected traffic volumes resulting from the proposed developments in the Dart’s Hill area, and evaluate their impacts for AM and PM peak hours under the build-out planning horizon (2040), 5 years after build-out (2045), and 10 years after build-out (2050);",
+			"Identify and recommend appropriate infrastructure improvements necessary to accommodate the estimated traffic volumes; ",
+			"Review the safety issues within the study area; and ",
+			"Assess the potential to modify the 176 Street and 18 Avenue intersection from right in/out access to a full movement intersection. "
+		]
+	},
+	{
+		"images": [
+			"/projects/images/MANITOBA WORKS YARD TRANSPORTATION ASSESSMENT AND MANAGEMENT STUDY/MANITOBA WORKS YARD TRANSPORTATION ASSESSMENT AND MANAGEMENT S.jpg"
+		],
+		"id": "uf_2",
+		"name": "MANITOBA WORKS YARD TRANSPORTATION ASSESSMENT AND MANAGEMENT STUDY",
+		"link": "MANITOBA WORKS YARD TRANSPORTATION ASSESSMENT AND MANAGEMENT STUDY",
+		"description": "The City of Vancouver proposed to re-develop the Manitoba Works Yard (MWY) at 250 West 70th Avenue, Vancouver, BC. The construction is planned to be completed in several phases over the next 30 years. The opening year of Phase 1 is expected to in 2026. The City of Vancouver requested to complete a Transportation Assessment and Management Study (TAMS) for the proposed Manitoba Works Yard upgrade. The TAMS tasks completed included:",
+		"client": "City of Vancouver",
+		"project_location": "Vancouver, BC, Canada",
+		"additional_data": [
+			"Conducting comprehensive traffic counts at the study intersections.",
+			"Investigating current traffic distribution at the study intersections during morning and afternoon peak hours.",
+			"Determining and analyzing existing and projected traffic volumes resulting from the site upgrade, and evaluating their impacts on the study intersections during morning and afternoon peak hours for the 20-year planning horizon post-opening (2046).",
+			"Reviewing existing and proposed conditions for pedestrians, cyclists, and drivers.",
+			"Assessing the redevelopment’s access points to ensure efficient ingress and egress.",
+			"Implementing Transportation Demand Management (TDM) strategies for the site to identify opportunities to reduce the required parking spots.",
+			"Identifying and recommending necessary infrastructure improvements to accommodate the estimated future traffic volumes resulting from the site upgrade."
+		]
+	},
+	{
+		"images": ["/projects/images/MARPOLE TRANSIT CENTRE TRAFFIC STUDY/Picture1.jpg"],
+		"id": "uf_3",
+		"name": "MARPOLE TRANSIT CENTRE TRAFFIC STUDY",
+		"link": "MARPOLE TRANSIT CENTRE TRAFFIC STUDY",
+		"description": "TransLink had requested a Transportation Assessment and Management Study (TAMS) for the proposed Marpole Transit Centre (MTC) development in the City of Vancouver, British Columbia. The MTC facility is intended to support the operation and maintenance of approximately 300 standard forty-foot coach equivalents (FFE’s) buses. The MTC facility will be a running repair facility for the administration, dispatch and maintenance of buses and bus operations.",
+		"client": "TransLink",
+		"project_location": "Vancouver, BC, Canada",
+		"additional_data": [
+			"Collect and analyze current traffic data at the study intersections that are expected to be impacted by the transit trip generation during the street morning and afternoon peak hours:",
+			"Determine and analyze the projected traffic volumes resulting from the development and evaluate their impacts on the study intersections during the street peak hours under build-out horizon year;",
+			"Review development access points to ensure ingress and egress operate efficiently;",
+			"Identify and recommend appropriate infrastructure improvements necessary to accommodate the estimated traffic volumes; ",
+			"Review the existing and proposed conditions for people walking, cycling, and using transit; and,",
+			"Implement Transportation Demand Management (TDM) strategies for the staff vehicle to identify opportunities to reduce the required parking spots."
+		]
+	}
+]
