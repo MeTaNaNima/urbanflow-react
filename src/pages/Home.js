@@ -48,7 +48,7 @@ const Home = () => {
 						</p>
 					</div>
 					<div className="flex-1 flex  items-center justify-center">
-						<img className="h-10" src="/images/logo.svg" alt="" />
+						<img className="h-[200px]" src="/images/UrbanFlowLogo.png" alt="" />
 					</div>
 				</div>
 				<div className="flex flex-col lg:flex-row-reverse max-w-screen-xl mx-auto gap-14 mt-3">

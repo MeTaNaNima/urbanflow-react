@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const ProjectCard = ({ project }) => {
 	return (
-		<div className="project-card rounded-lg bg-slate-100 hover:scale-105 duration-300 hover:shadow-2xl">
+		<div className="project-card rounded-lg bg-slate-100 hover:scale-105 duration-300 hover:shadow-2xl cursor-pointer">
 			<Carousel
 				showThumbs={false}
 				showArrows={false}

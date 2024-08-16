@@ -1,32 +1,23 @@
 // src/pages/Projects.js
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import ProjectCard from '../components/ProjectCard';
 import ProjectFeatures from '../components/ProjectFeatures';
 import HeroSection from '../components/HeroSection';
-import ProjectModal from '../components/ProjectModal';
 
 const Projects = () => {
 	const [projects, setProjects] = useState([]);
-	const [selectedProject, setSelectedProject] = useState(null);
-	const [modalIsOpen, setModalIsOpen] = useState(false);
 
 	useEffect(() => {
-		// Fetch the JSON data from the public directory
-		fetch('/projects/projects.json')
-			.then((response) => response.json())
-			.then((data) => setProjects(data))
-			.catch((error) => console.error('Error fetching projects data:', error));
+		axios
+			.get('http://localhost:8000/api/projects')
+			.then((response) => {
+				setProjects(response.data);
+			})
+			.catch((error) => {
+				console.error('There was an error fetching the projects!', error);
+			});
 	}, []);
-
-	const openModal = (project) => {
-		setSelectedProject(project);
-		setModalIsOpen(true);
-	};
-
-	const closeModal = () => {
-		setModalIsOpen(false);
-		setSelectedProject(null);
-	};
 
 	return (
 		<div className="projects-page">
@@ -78,19 +69,11 @@ const Projects = () => {
 
 			<div className="projects-section py-24 px-3">
 				<div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-					{projects.map((project, index) => (
-						<div key={index} onClick={() => openModal(project)}>
-							<ProjectCard project={project} />
-						</div>
+					{projects.map((project) => (
+						<ProjectCard key={project._id} project={project} />
 					))}
 				</div>
 			</div>
-
-			<ProjectModal
-				isOpen={modalIsOpen}
-				onRequestClose={closeModal}
-				project={selectedProject}
-			/>
 		</div>
 	);
 };

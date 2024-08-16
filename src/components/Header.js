@@ -8,7 +8,7 @@ const Header = () => {
 			<header className="flex justify-between items-center max-w-screen-xl mx-auto max-sm:hidden">
 				<div className="logo">
 					<Link to="/">
-						<img src="/images/logo.svg" alt="Logo" className="h-10" />
+						<img src="/images/UrbanFlowLogo.png" alt="Logo" className="h-[7rem]" />
 					</Link>
 				</div>
 				<nav className="navigation">

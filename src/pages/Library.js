@@ -6,7 +6,7 @@ const Library = () => {
 	const libraries = [
 		{
 			libraryName: 'BC Ministry of Transportation and Infrastructure (MOTI)',
-			image: '',
+			image: '/images/library/MOTI.png',
 			links: [
 				{ url: 'https://www.th.gov.bc.ca/trafficdata/', label: 'Traffic Data' },
 				{
@@ -25,7 +25,7 @@ const Library = () => {
 		},
 		{
 			libraryName: 'TransLink',
-			image: '',
+			image: '/images/library/translink_logo.svg',
 			links: [
 				{
 					url: 'https://www.translink.ca/-/media/translink/documents/rider-guide/travelsmart/compass-for-development/tdm_guidelines_for_development.pdf',
@@ -61,7 +61,7 @@ const Library = () => {
 		},
 		{
 			libraryName: 'City of Coquitlam',
-			image: '',
+			image: '/images/library/City of Coquitlam.png',
 			links: [
 				{
 					url: 'https://www.coquitlam.ca/DocumentCenter/View/5281/Transportation-Demand-Management-Guidelines-for-New-Development-PDF',
@@ -76,7 +76,7 @@ const Library = () => {
 		},
 		{
 			libraryName: 'City of North Vancouver',
-			image: '',
+			image: '/images/library/City of North Vancouver.png',
 			links: [
 				{
 					url: 'https://www.cnv.org/-/media/city-of-north-vancouver/documents/development-applications/guidelines-for-the-submission-of-transportation-studies.PDF',
@@ -100,7 +100,7 @@ const Library = () => {
 		},
 		{
 			libraryName: 'City of Burnaby',
-			image: '',
+			image: '/images/library/City of North Burnaby.jpg',
 			links: [
 				{
 					url: 'https://www.burnaby.ca/our-city/bylaws/zoning-bylaw',
@@ -114,7 +114,7 @@ const Library = () => {
 		},
 		{
 			libraryName: 'City of Kelowna',
-			image: '',
+			image: '/images/library/City of Kelowna.png',
 			links: [
 				{
 					url: 'https://www.kelowna.ca/homes-building/zoning-land-use/zoning-bylaw/section-8-parking-loading',
@@ -125,7 +125,7 @@ const Library = () => {
 		},
 		{
 			libraryName: 'City of Kamloops',
-			image: '',
+			image: '/images/library/City of Kamloops.jpg',
 			links: [
 				{
 					url: 'https://www.kamloops.ca/business-development/application-forms-and-guides/transportation-impact-assessment-guidelines',
