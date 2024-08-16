@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import HeroSection from '../components/HeroSection';
 import LibraryItem from '../components/LibraryItems';
 
 const Library = () => {
+	useEffect(() => {
+		document.title = 'Libray | Urban Flow';
+	}, []);
+
 	const libraries = [
 		{
 			libraryName: 'BC Ministry of Transportation and Infrastructure (MOTI)',

@@ -1,9 +1,13 @@
 // src/pages/Home.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ServiceCard from '../components/ServiceCard';
 
 const Home = () => {
+	useEffect(() => {
+		document.title = 'Home | Urban Flow';
+	}, []);
+
 	return (
 		<div className="home-page">
 			<div

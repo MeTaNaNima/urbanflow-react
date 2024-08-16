@@ -11,6 +11,10 @@ const Projects = () => {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 
 	useEffect(() => {
+		document.title = 'Projects | Urban Flow';
+	}, []);
+
+	useEffect(() => {
 		// Fetch the JSON data from the public directory
 		fetch('/projects/projects.json')
 			.then((response) => response.json())
